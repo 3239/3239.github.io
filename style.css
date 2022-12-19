@@ -11,7 +11,7 @@ body {
 
 header {
     width: auto;
-    background: tan;
+    background: rgb(29, 21, 75);
     border-radius: 12px 12px 0 0;
     padding: 10px;
 }
@@ -20,38 +20,29 @@ p {
     color:rgb(33, 62, 192);
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    font-size: 30px;
-    transform: translate(200px, -200px);
-}
-
-h1 {
-    transform: translate(0,50px);
-}
-h2 {
-    color:rgb(17, 22, 22);
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    transform: translate(200px, -180px);
+    font-size: 50px;
+    transform: translate(270px, -230px);
 }
 
 button {
-    background-color: rgb(228, 208, 208);
+    background-color: rgb(8, 83, 133);
     border-radius:12px;
     text-align: center;
-    font-size: 16px; 
+    font-size: 20px; 
     padding: 6px 18px;
     border:seashell;
     font-family: arial;
     margin: 0 auto;
     display: block;
-    transform: translate(200px, -160px);
-    text-decoration: none;
+    transform: translate(270px, -210px);
+    box-sizing: border-box;
 }
 
 footer {
-    background:tan;
+    background: rgb(29, 21, 75);
     border-radius: 0 0 12px 12px;
     text-align: center;
+    height: 20px;
 }
 *{
     margin: 0;
@@ -61,17 +52,26 @@ footer {
 form {
     background: rgb(250, 247, 250);
     margin:auto;
+    height: 500px;
 }
 
 .active {
     font-size: 36px;
     padding-top: 10px;
     text-align: center;
-    text-decoration: none;
 }
 
 .activ {
     list-style: none;
     text-align: right;
-    text-decoration: none;
 }
+
+a {
+    text-decoration: none;
+    color: #f1f4f5;
+}
+a:hover {
+	color: #43cfc8;
+}
+
+    
